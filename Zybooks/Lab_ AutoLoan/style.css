@@ -1,0 +1,66 @@
+/* Your code goes here */
+*{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.container h1{
+    font-size: 16px;
+    color: #444444;
+}
+
+.container{
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+}
+
+section[class='offer']{
+    display: inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+h2[class='offer-title']{
+    font: 14px bold;
+    color: #ffffff;
+    background-color: #00b3b3;
+    margin: 0;
+    padding: 15px;
+}
+
+div[class='offer-contents']{
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+table{
+    width: 100%;
+    background-color: #ffffff;
+    border-spacing: 0;
+}
+
+th{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    color: #777777;
+}
+
+td{
+    color: rgb(68,68,68);
+    padding: 20px 10px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+th, td{
+    text-align: left;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.final-value{
+    color: #2222ff;
+    font-weight: bold;
+}
